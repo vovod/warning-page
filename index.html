@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deceptive Site Ahead</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://www.google.com/favicon.ico">
+</head>
+<body>
+    <div class="warning-container">
+        <svg width="80px" height="80px" class="msgBlockIcon" viewBox="0 0 90 90" fill="none" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg">
+            <path d="M90 90H0L45 0L90 90ZM9.70312 84H80.2969L45 13.4062L9.70312 84ZM48 36V66H42V36H48ZM42 72H48V78H42V72Z" fill="currentColor"></path>
+          </svg>
+        <!-- <div class="icon">⚠️</div> -->
+        <h1>Deceptive site ahead</h1>
+        <p>Attackers on <b> this site </b> may trick you into doing something dangerous like installing software or revealing your personal information (for example, passwords, phone numbers, or credit cards). <a href="#" class="learn-more">Learn more</a></p>
+        <p class="more-info">
+            <input type="checkbox" id="safe-browsing"> 
+            <label for="safe-browsing">Help improve Safe Browsing by sending some <a href="" class = "information"> system information and page content</a> to Google.</label>
+        </p>
+        <a href="#" class="privacy">Privacy policy</a>
+        <div class="buttons">
+            <button class="details-btn" onclick="showDetails()">Details</button>
+            <button class="back-btn" onclick="goBack()">Back to safety</button>
+        </div>
+        <div id="details" class="hidden">
+            <p>Google Safe Browsing recently detected phishing on this site.</p>
+            <p>If you understand the risks, you can proceed to <a href="https://vovod.github.io/">this unsafe site</a>.</p>
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "https://github.com/vovod";
+        }
+
+        function showDetails() {
+            document.getElementById('details').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

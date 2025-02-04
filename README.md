@@ -9,8 +9,8 @@ This project is a **mock warning page** inspired by Google's "Deceptive Site Ahe
 ## 📌 Features
 
 ✅ Responsive UI with a warning message  
-✅ "Go Back" button to return to the previous page  
-✅ "Advanced" button to reveal additional details  
+✅ "Back to safety" button to return to the previous page  
+✅ "Details" button to reveal additional details  
 ✅ Clean and customizable CSS styling  
 
 ## 📂 File Structure

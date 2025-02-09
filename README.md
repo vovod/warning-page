@@ -31,7 +31,7 @@ This project is a **mock warning page** inspired by Google's "Deceptive Site Ahe
 
 1. Download or clone this repository:
    ```sh
-   git clone https://github.com/yourusername/deceptive-site-warning.git
+   git clone https://github.com/vovod/warning-page.git
    ```
 2. Open `index.html` in a browser to view the warning page.
 
